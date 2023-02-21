@@ -1,0 +1,237 @@
+@font-face {
+    font-family: "Gilroy-Bold";
+    src: url(../assets/fonts/FontsFree-Net-Gilroy-Bold.ttf);
+    font-style: normal; 
+    font-weight: normal; 
+}
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(../assets/fonts/gilroy-medium.ttf);
+    font-style: normal; 
+    font-weight: normal; 
+}
+
+/* SECTION1 */
+.section1{
+    width: 1445px;
+    margin: 0 auto;
+    padding-bottom: 104px;
+    background-color: white;
+    
+}
+.content-wrapper{
+    width: 940px;
+    margin: 0 auto;
+}
+
+/* NAV */
+.navigation-wrapper{
+    height: 88px;
+    border-bottom: 1px solid #828282;
+}
+.nav-list{
+    height: inherit;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.nav-item > a{
+    font-family: "Gilroy-Bold";
+    size: 18px;
+    line-height: 22px;
+    color: #828282;
+}
+.nav-item-active > a{
+    color: #070707;
+}
+
+/* TITLE */
+.title-wrapper{
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+}
+h1{
+    width: 123px;
+    font-family: 'Gilroy-Bold';
+    font-size: 48px;
+    line-height: 59px;
+    color: #070707;
+}
+.description{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    color: #070707;
+}
+.lang{
+    justify-content: flex-end;
+    align-self: center;
+    transform: rotate(-90deg);
+
+    font-family: 'Gilroy-Bold';
+    font-size: 16px;
+    line-height: 20px;
+    color: #828282;
+}
+.lang > span{
+    font-weight: 800;
+    color: #000000;
+}
+.main-photo{
+    width: 944px;
+    padding-top: 30px;
+}
+
+/* SECTION2 */
+
+.section2{
+    width: 1445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #F6F6F6;
+}
+h2{
+    font-family: 'Gilroy-Bold';
+    font-size: 34px;
+    line-height: 42px;
+    text-align: center;
+    color: #070707;
+}
+.section2 > h2{
+    padding-top: 156px;
+}
+.section2 > article{
+    padding-top: 17px;
+    padding-bottom: 71px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+
+/* SECTION3 */
+.section3 > .content-wrapper > h2{
+    padding-top: 127px;
+}
+
+.skill-text{
+    padding-top: 69px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+.program-img{
+    height: 89px;
+}
+h4{
+    font-family: 'Gilroy-Bold';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
+.program > h4{
+    padding-top: 19px;
+}
+.program-container{
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 110px;
+}
+.program{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-top: 83px;
+}
+.stars{
+    padding-top: 41px;
+}
+
+/* SECTION4 */
+.section4{
+    width: 1445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #F6F6F6;
+}
+.section4 > h2{
+    padding-top: 112px;
+    padding-bottom: 47px;
+}
+.portfolio-img{
+    width: 936px;
+}
+.portfolio-caption{
+    padding-top: 45px;
+    padding-bottom: 99px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration-line: underline;
+    color: #070707;
+}
+
+/* SECTION5 */
+.section5{
+    width: 1445px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    background: #FFFFFF;
+}
+.section5 > h2{
+    padding-top: 114px;
+}
+.section5 > article{
+    padding-top: 20px;
+    padding-bottom: 29px;
+    font-family: 'Gilroy-Medium';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #070707;
+}
+.btn-send{
+    height: 42px;
+    width: 180px;
+    border-radius: 15px;
+    background-color: black;
+    font-family: 'Gilroy-Bold';
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    color: #FFFFFF;
+}
+.social{
+    width: 342px;
+    padding-top: 85px;
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    padding-top: 45px;
+    padding-bottom: 123px;
+    font-family: 'Gilroy-Medium';
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #828282;
+}
